@@ -9,5 +9,3 @@ jobs:
     steps:
       - name: Build step
         run: echo "Hello, world"
-!
-
