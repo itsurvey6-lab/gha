@@ -1,5 +1,5 @@
 
-name: CI
+name: HELLO WORLD
 on: push
 
 jobs:
@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Build step
+        run: echo "Hello, world"
 !
 
