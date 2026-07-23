@@ -1,6 +1,13 @@
 
 name: HELLO WORLD
-on: push
+on: 
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -8,4 +15,4 @@ jobs:
 
     steps:
       - name: Build step
-        run: echo "Hello, world"
+        run: echo "pull request done"
