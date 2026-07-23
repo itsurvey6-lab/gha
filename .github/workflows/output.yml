@@ -2,6 +2,7 @@ name: outputs demo
 on: push
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
       - name: Build step
         run: echo "version=10.020.5" >> $GITHUB_OUTPUT
