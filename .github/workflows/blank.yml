@@ -8,4 +8,4 @@ jobs:
 
     steps:
       - name: Build step
-        run: echo "Hello, world"
+        run: echo "Hello, I am ${{vars.MY_NAME}}"
